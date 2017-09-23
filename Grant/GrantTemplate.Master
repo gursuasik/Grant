@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GrantTemplate.Master.cs" Inherits="Grant.GrantMain" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1">
+	    <div class="header">
+		    <div>
+			    <a href="GrantMain.aspx" id="logo"><img src="images/logo.png" alt="logo" /></a>
+			    <ul>
+				    <li
+                        <%
+                            if (Request.QueryString["m"] != null)
+                            {
+                                if (Request.QueryString["m"]=="GrantMain")
+                                {
+                                    Response.Write("class=\"selected\"");
+                                }
+                            }
+                            else
+                            {
+                                Response.Write("class=\"selected\"");
+                            }
+                        %>
+                        >
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/GrantMain.aspx?m=GrantMain"><span>A</span>na <span>S</span>ayfa</asp:HyperLink></li>
+				    <li
+                        <%
+                            if (Request.QueryString["m"] != null && Request.QueryString["m"] == "Aplication")
+                            {
+                                Response.Write("class=\"selected\"");
+                            }
+                        %>
+                        >
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Aplication.aspx?m=Aplication"><span>B</span>aşvuru</asp:HyperLink></li>
+				    <li
+                        <%
+                            if (Request.QueryString["m"] != null && Request.QueryString["m"] == "Info")
+                            {
+                                Response.Write("class=\"selected\"");
+                            }
+                        %>
+                        >
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Info.aspx?m=Info"><span>B</span>ilgi</asp:HyperLink></li>
+				    <li
+                        <%
+                            if (Request.QueryString["m"] != null && Request.QueryString["m"] == "List")
+                            {
+                                Response.Write("class=\"selected\"");
+                            }
+                        %>
+                        >
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/List.aspx?m=List"><span>L</span>iste</asp:HyperLink></li>
+			    </ul>
+			    <div>
+				    <p><span>B</span>aşvuru <span>S</span>on <span>T</span><span>arihi: </span><span><span>29 Ekim</span></span></p>
+			    </div>
+		    </div>
+	    </div>
+        <div><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></div>
+    </form>
+</body>
+</html>

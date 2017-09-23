@@ -1,0 +1,10 @@
+D:\Documents\Edit\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\bin\Grant.dll
+D:\Documents\Edit\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\bin\Grant.pdb
+D:\Documents\Edit\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\obj\Debug\Grant.csprojResolveAssemblyReference.cache
+D:\Documents\Edit\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\obj\Debug\Grant.dll
+D:\Documents\Edit\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\obj\Debug\Grant.pdb
+D:\Documents\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\bin\Grant.dll
+D:\Documents\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\bin\Grant.pdb
+D:\Documents\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\obj\Debug\Grant.csprojResolveAssemblyReference.cache
+D:\Documents\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\obj\Debug\Grant.dll
+D:\Documents\Works\Visual Studio\C#\Web\ASP.NET\Grant\Grant\obj\Debug\Grant.pdb
